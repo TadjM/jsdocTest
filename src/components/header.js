@@ -1,3 +1,9 @@
+/**
+ * React component to define the navigation bar
+ * @param  {String} siteTitle  - Set the title of the site
+ * @param  {string} subpageTitle  - Page title
+ * 
+ */
 import React from 'react'
 import { navigate } from 'gatsby'
 import { Auth } from 'aws-amplify'

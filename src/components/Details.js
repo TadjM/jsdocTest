@@ -1,7 +1,11 @@
+
 import React from 'react'
 import { Link } from 'gatsby'
 import { getCurrentUser } from '../utils/auth'
-
+/**
+ * react Component to display the user  profile
+ * @return {undefined} User - The user profile containing email, phone_number and unsername is returned
+ */
 const Home = () => {
   const user = getCurrentUser()
   console.log('user:', user)

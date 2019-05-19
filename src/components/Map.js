@@ -1,3 +1,9 @@
+/**
+ * React component to render a map with differents institutions marker on it
+ * @extends Component
+ * @returns {Map} - Map of the united states
+ */
+
 import React, { Component } from 'react'
 import { StaticQuery, graphql } from 'gatsby'
 import { Map, GoogleApiWrapper, Marker } from 'google-maps-react'

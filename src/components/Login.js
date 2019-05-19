@@ -5,6 +5,12 @@ import { setUser, isLoggedIn } from '../utils/auth'
 import Error from './Error'
 import { Auth } from 'aws-amplify'
 
+/**
+ * React component to handle the Login page
+ * @extends Component
+ * @returns {undefined} login_status 
+ */
+
 class Login extends React.Component {
   state = {
     username: ``,
@@ -12,12 +18,20 @@ class Login extends React.Component {
     error: ``,
   }
 
+  /**
+  * @method handleUpdate
+  * @param {Object} event - event to be handled
+  */
   handleUpdate = event => {
     this.setState({
       [event.target.name]: event.target.value,
     })
   }
-
+  /**
+  * @method login
+  * @param {string} unsername - The user's unsername
+  * @param {string} password - The user's password
+  */
   login = async () => {
     const { username, password } = this.state
     try {

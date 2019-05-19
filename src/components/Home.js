@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'gatsby'
-
+/**
+  * React component to signal the success of the login
+  */
 const Home = () => (
   <div>
     <h1>Home</h1>

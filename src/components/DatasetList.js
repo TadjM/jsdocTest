@@ -1,3 +1,9 @@
+/**
+ * Reatct component that give a list of datasets and indicate which dataset is being viewed
+ * @param  {list}  datasets - list of datasets
+ * @param  {object} activeDatasetIndex 
+ * @param  {object} setActiveDataset 
+ */
 import React from 'react'
 import { Accordion, Button, Card } from 'react-bootstrap'
 

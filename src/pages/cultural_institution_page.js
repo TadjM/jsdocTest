@@ -1,3 +1,4 @@
+
 import React from 'react'
 import { Map, TileLayer, Marker, Popup } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
@@ -19,6 +20,12 @@ L.Icon.Default.mergeOptions({
   iconUrl: require('leaflet/dist/images/marker-icon.png'),
   shadowUrl: require('leaflet/dist/images/marker-shadow.png'),
 })
+
+/**
+ * React component to render a map with differents institutions marker on it
+ * @extends Component
+ * @returns {Map} - Map of the united states
+ */
 
 class CulturalInstitution extends React.Component {
   state = {

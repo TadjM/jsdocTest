@@ -4,6 +4,11 @@ import { Tabs, Tab } from 'react-bootstrap'
 import DatasetList from './DatasetList'
 import styles from './SidePane.css'
 
+/**
+ * @method SidePane
+ * @summary React component for handling the tabs
+ * @param {Object} props - React PropTypes
+ */
 const SidePane = props => (
   <Tabs
     id='controlled-tab-example'

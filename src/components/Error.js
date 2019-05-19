@@ -1,5 +1,9 @@
 //https://github.com/wesbos/dump
 import React from 'react'
+/**
+  * React Component to handle errors from AWS cognito USer Pooll 
+  * @param {Object} props - React PropTypes
+  */
 
 const Error = props => (
   <div>

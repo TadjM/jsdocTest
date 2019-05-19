@@ -1,3 +1,11 @@
+/**
+ * React component to design the layout of the page
+ * @param  {undefined} children 
+ * @param  {undefined} data - Data
+ * @param  {string} title - Title of the site
+ * @returns {string}
+ */
+
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'

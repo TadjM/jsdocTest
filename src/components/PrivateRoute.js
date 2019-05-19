@@ -2,6 +2,11 @@ import React from 'react'
 import { navigate } from '@reach/router'
 import { isLoggedIn } from '../utils/auth'
 
+/**
+ * @summary React component to handle diffirent routes
+ * @return {undefined}
+ */
+
 class PrivateRoute extends React.Component {
   render () {
     const { component: Component, location, ...rest } = this.props

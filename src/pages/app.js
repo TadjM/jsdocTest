@@ -1,3 +1,7 @@
+/**
+ * Main application page where differents components and code are routed
+ * and link to the corresponding components.
+ */
 import React from 'react'
 import { Router } from '@reach/router'
 import Layout from '../components/layout'
