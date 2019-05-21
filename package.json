@@ -13,7 +13,10 @@
     "gatsby-source-filesystem": "^2.0.33",
     "gatsby-transformer-json": "^2.1.11",
     "google-maps-react": "^2.0.2",
+    "install": "^0.12.2",
+    "jsdoc": "^3.6.2",
     "leaflet": "^1.5.1",
+    "minami": "^1.2.3",
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.8",
     "react-dom": "^16.8.6",
@@ -25,12 +28,7 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier-standard '{src,tests}/**/*.js'",
-    "test:unit": "jest -c tests/jest.unit.config.js unit",
-    "test:int": "jest -c tests/jest.int.config.js int",
-    "test:e2e": "jest -c tests/jest.e2e.config.js e2e"
+    "docs": "./node_modules/.bin/jsdoc --configure conf.json"
   },
   "devDependencies": {
     "babel-jest": "^24.8.0",

@@ -6,3 +6,11 @@ script:
   - yarn test:int
   - yarn test:e2e
 cache: yarn
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: YkSaCyKbMgR9nfKa_eSOrw  # Set in the settings page of your repository, as a secure variable
+  keep_history: true
+  on:
+    branch: master
