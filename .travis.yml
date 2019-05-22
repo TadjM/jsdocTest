@@ -7,10 +7,6 @@ script:
   - yarn test:e2e
 cache: yarn
 
-language: node_js
-node_js:
-  - "lts/*"
-script: yarn test
 after_success: bash ./deploy.sh
 # env:
   # global:
