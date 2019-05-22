@@ -20,4 +20,4 @@ node_js:
  - "lts/*"
 
 
-install: npm install -g gulp; npm install
+install: yarn -global add  gulp; yarn install
