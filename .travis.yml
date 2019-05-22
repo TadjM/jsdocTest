@@ -9,10 +9,7 @@ cache: yarn
 
 language: node_js
 node_js:
-- '5'
-- '4'
-- '0.12'
-- '0.10'
+  - "lts/*"
 script: yarn test
 after_success: bash ./deploy.sh
 env:
