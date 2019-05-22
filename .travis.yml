@@ -1,14 +1,24 @@
-language: node_js
-node_js:
-  - "lts/*"
-script:
-  - yarn test:unit
-  - yarn test:int
-  - yarn test:e2e
-cache: yarn
+# language: node_js
+# node_js:
+#   - "lts/*"
+# script:
+#   - yarn test:unit
+#   - yarn test:int
+#   - yarn test:e2e
+# cache: yarn
 
-bash ./deploy.sh
+# bash ./deploy.sh
 # env:
   # global:
   #   - ENCRYPTION_LABEL: 3985cea5a61f
   #   - COMMIT_AUTHOR_EMAIL: openapi@bandwidth.com 
+
+
+language: node_js
+
+node_js:
+  - "8"
+  - "10"
+  - "12"
+  
+install: npm install -g gulp; npm install
